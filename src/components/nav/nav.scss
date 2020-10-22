@@ -1,0 +1,41 @@
+.action-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-container{
+    display: flex;
+}
+
+.action-component{
+    border-left: 1px solid lightgray;
+    padding: 0vh 1vw;
+    color: gray;
+    font-size: 17px;
+}
+
+.nav-dropdown{
+    display: flex;
+}
+
+.info-icon{
+    font-size: 14px;
+    border: 2px solid gray;
+    padding: 0.3vh 0.55vw;
+    border-radius: 50%;
+}
+
+.down-icon{
+    color: gray;
+    padding-right: 1vw;
+}
+
+.most-right-component{
+    border-right: 1px solid lightgray;
+}
+
+.pointer-hover{
+    &:hover{
+        cursor: pointer;
+    }
+}
